@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Bestellung von Büromaterial</title>
+		<link rel="stylesheet" type="text/css" href="./styles/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./styles/index.css">
+		<style>
+			@media print {
+				.no-print {
+					display:none;
+				}
+			}
+
+			.menu{
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: space-around;
+				text-decoration: none;
+				list-style: none;
+				margin: 0px;
+				padding: 0px;
+			}
+			/*.menu > li > a {
+				width: 100px;
+				height: 100px;
+				display: block;
+				text-align: center;
+			}
+
+			.menu a:hover {
+				transform: scale(0.95);
+			}
+			a {
+				max-width: 400px;
+				width: 10vw;
+			}*/
+		</style>
+	</head>
+	<body>
+		<div class="col-sm-12">
+			<h1>Büromaterial Bestellung für IT-Mitarbeiter</h1>
+		</div>
+		<div class="col-sm-6">
+			<h2>Vorrätiges Büromaterial</h2>
+		    Zum Vorrätigem Büromaterial gehören unter anderem:
+		    <ul>
+				<li>Bleistifte</li>
+				<li>Radiergummi</li>
+				<li>A4 Blöcke</li>
+				<li>A5 Blöcke</li>
+				<li>A6 Blöcke</li>
+				<li>Sichtmappen</li>
+				<li>Bostich Klammern</li>
+				<li>Ordner Blau, Rot, Grün, Grau und Weiss mit Hoval Logo</li>
+				<li>Verschiedene Füller/Tintenpatronen</li>
+				<li>Verschiedene Kugelschreiber</li>
+				<li>Jegliche Caran d'âche Kugelschreiber</li>
+				<li>Jegliche Leuchtstifte</li>
+		    </ul>
+		</div>
+		<div class="col-sm-6">
+            <h2>Bestellmaterial</h2>
+            Bei nicht auf Vorrat vorhandenem Büromaterial, bitte im einem der folgenden Webshops das gewünschte Produkt suchen und die Artikelnummer mit in die Bestellung schreiben.
+		<br><br>
+            <ul class="menu">
+                <li><a class="WebshopLink" href="http://ias.peg.ch/pegshopspring/katalog/show.do?papeteristennr=313701&endkundennr=999990&ohnelogin=j">Thöny<br> Webshop</a></li>
+                <li><a class="WebshopLink" href="https://www.gaerner.de/">Gaerner</a></li>
+            </ul>
+		</div>
+        <div class="col-sm-12" style="text-align: center; padding: 50px;">
+            <a class="btn btn-default" href="./index.php">Zurück</a>
+        </div>
+	</body>
+</html>
